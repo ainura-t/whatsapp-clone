@@ -6,7 +6,7 @@ import Head from "next/head";
 
 function login() {
   const signIn = () => {
-    auth.signInWithPopup(provider).catch(console.error);
+    auth.signInWithPopup(provider).catch(console.error());
   };
 
   return (
